@@ -1,0 +1,38 @@
+/* 
+CSS Demo Stylesheet
+ */
+/*
+ pick color scheme and font style before next class
+ */
+/* 
+color scheme ideas: found on adobe color
+    blue #4970FS
+    tan  #b59f64
+    sand #F4C749
+    blue #6572A0
+    brown#756FSE            
+    */
+    /* 
+    Font
+    Merienda-primary
+     Cursive- secondary
+      Sans-Serif-default
+    */
+
+/*  ---------------Box Sizing-----------------  */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-family: "Merienda", cursive, sans-serif;
+}
+
+header.primary{
+    background:red;
+}
